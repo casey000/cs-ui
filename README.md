@@ -1,36 +1,4 @@
 
-<code>
-vzer-ui-template
-├─ config
-│  ├─ webpack.build.js //用作打包web服务的配置文件，输出dist文件夹
-│  ├─ webpack.dev.js //用作本地开发的配置文件
-│  └─ webpack.npm.js //用作打包npm包的配置文件，输出lib
-├─ dist //打包后的web服务包
-├─ lib //打包后的npm包
-├─ node_modules
-├─ src
-│  ├─ assets
-│  │    ├─ css
-│  │    ├─ font 
-│  │    └─ img
-│  ├─ examples //存放演示页面文件夹
-│  ├─ plugin
-│  │    ├─ assets
-│  │    │    └─ scss //可以统一管理组件的css样式
-│  │    ├─ components  //所有组件写在这个文件夹
-│  │    │      └─ index.js //组件入口
-│  │    ├─ index.js //统一处理组件
-│  │    └─ style.js //样式入口
-│  ├─ router 
-│  │    └─ index.js
-│  ├─ App.vue
-│  └─ main.js 
-├─ .babelrc
-├─ .gitignore
-├─ index.html
-├─ package.json
-└─ README.md
-</code>
 ## 快速入门教程
 
 ``` bash
