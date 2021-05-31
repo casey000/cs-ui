@@ -1,4 +1,5 @@
 
+<code>
 vzer-ui-template
 ├─ config
 │  ├─ webpack.build.js //用作打包web服务的配置文件，输出dist文件夹
@@ -29,7 +30,7 @@ vzer-ui-template
 ├─ index.html
 ├─ package.json
 └─ README.md
-
+</code>
 ## 快速入门教程
 
 ``` bash
